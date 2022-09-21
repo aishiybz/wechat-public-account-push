@@ -6,12 +6,12 @@ export const USER_CONFIG = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "",
+  APP_ID: "wx896cbc4c11c9ea27",
   
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "",
+  APP_SECRET: "1f140a80836b229ba72c56133f0c75fe",
   
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -57,7 +57,7 @@ export const USER_CONFIG = {
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
    */
-  USERS: [
+  USERS: ["oqw4g5qQNDHTJ0JUWQLG9qQ_H4b0"]
     {
       // 想要发送的人的名字
       name: "老婆0",
@@ -95,16 +95,17 @@ export const USER_CONFIG = {
       ]
     },
     {
-      name: "老婆1",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
+      name: "老婆大人",
+      id: "爱石艺",
+      useTemplateId: "广州",
+      province: "广东",
+      city: "中山",
+      horoscopeDate: '11-25',
+      horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      festivals: [{"type": "*生日", "name": "老婆", "year": "2002", "date": "11-25"},
+                 {"type": "节日", "name": "恋爱纪念日", "year": "2021", "date": "12-16"}],
+      customizedDateList: [{"keyword": "love_day", date: "2021-12-16"}]
     },
     {
       name: "老婆2",
@@ -139,7 +140,7 @@ export const USER_CONFIG = {
    */
   
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "",
+  CALLBACK_TEMPLATE_ID: "Yr00mV3zgJLhzKnCVuL90GdNWtYRYgne69rR7_EOWxc",
   
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
