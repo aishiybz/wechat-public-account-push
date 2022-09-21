@@ -70,7 +70,7 @@ export const USER_CONFIG = {
       festivals: [{"type": "*生日", "name": "老婆", "year": "2002", "date": "11-25"},
                  {"type": "节日", "name": "恋爱纪念日", "year": "2021", "date": "12-16"}],
       customizedDateList: [{"keyword": "love_day", date: "2021-12-16"}]
-    }
+    },
   /**
    * 【推送完成提醒】 相关，主要用来展示发送是否成功/失败的数据
    */
